@@ -1,0 +1,85 @@
+@font-face{
+    font-family: myFont;
+    src: url("./../fonts/VarelaRound-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    font-family: myFont;
+    padding: 0;
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+body{
+    background: #000000;
+}
+
+nav{
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+    padding-top: 2.5vh;
+    top: 0;
+    width: 100%;
+    background: #111111;
+    z-index: 99;
+}
+
+nav span {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+header{
+    padding-top: 40vh;
+    text-align: center;
+    padding-bottom: 40vh;
+    transform: scaleY(1.1);
+    background-image: url('./../images/10169.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header h1, header h2, header h3, header h4, header h5 {
+    margin: auto;
+    color: #ffffff;
+}
+main {
+    background: url('./../images/source.gif');
+    background-size: 80%;
+    margin-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    color: #3c3c3c;
+}
+
+main h4 {
+    color: #000000;
+}
+
+div{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contents li{
+    margin-bottom: 30px;
+}
+ 
+blockquote{
+    padding: 20px;
+}
+
+p{
+    margin-bottom: 26px;
+}
+footer{
+    background: #111111;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 20px;
+    padding-left: 10%;
+}
