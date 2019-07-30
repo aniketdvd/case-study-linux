@@ -83,3 +83,11 @@ footer{
     padding: 20px;
     padding-left: 10%;
 }
+.ss-div{
+    display: block;
+    text-align: center;
+}
+.ss-div img{
+    width: 90%;
+    margin-top: 20px;
+}
